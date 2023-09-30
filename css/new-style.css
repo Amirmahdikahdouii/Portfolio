@@ -1,0 +1,115 @@
+html {
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: main-font;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: main-font;
+}
+
+.header-section {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    min-height: 100vh;
+}
+
+.header-section, .header-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content-container {
+    width: 85%;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.header-content {
+    width: 45%;
+}
+
+.full-name {
+    font-size: 3rem;
+}
+
+.position {
+    font-size: 1.5rem;
+}
+
+.skills-title {
+    font-size: 1.5rem;
+}
+
+.skills {
+    margin: .5rem 0;
+    font-size: 1.4rem;
+}
+
+.social-media-icons-container {
+    margin: 1rem 0 0;
+    max-width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.social-media-icon{
+    margin: 0 .5rem;
+}
+
+.social-media-icon > i{
+    font-size: 2.5rem;
+    color: #123456;
+}
+
+.line-break {
+    display: block;
+    margin: .5rem 0;
+    width: 100%;
+    padding: .5px 0;
+    background-color: #000;
+    border-radius: 1rem;
+}
+
+.header-image-container {
+    max-width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #000;
+}
+
+.header-image {
+    position: relative;
+    max-width: 100%;
+    max-height: 40rem;
+    border-radius: 1rem;
+}
+
+.information-container {
+    margin: 1rem 0;
+    display: flex;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.information-title, .information-value {
+    font-size: 1.4rem;
+}
+
+.information-value {
+    margin-left: .5rem;
+    color: #123456;
+    text-decoration: none;
+}
